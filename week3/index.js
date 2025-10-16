@@ -22,3 +22,6 @@ console.log(student.dob)
 console.log(student.Studentgrade())
 console.log("grade is "+student.Studentgrade(55) )
 // creating new Person
+person1= new person("Jim","USA","myemail@gmail.com")
+console.log("using Person Module",person1.getPersonInfo())
+console.log("Programe ended")

@@ -91,7 +91,8 @@ person_doc.deleteMany({ age: { $gte: 25 } })
 console.log('deleted documents are:',docs);
 }).catch(function(error){
 console.log(error);
-});
+});  
+
 
 person_doc.updateMany({ Gender: "Female" },{Salay:5555})
 .exec()

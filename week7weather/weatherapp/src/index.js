@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-export default Hook_ControlledButtonState
 import Hook_ControlledButtonState from './Counter';
 import EmojeeCounter from './weather';
 

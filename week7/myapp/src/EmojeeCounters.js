@@ -10,10 +10,10 @@ useEffect(()=>{
 console.log ("function called",props.pic)
 if (props.pic==="Love")
  setPic(Love) 
-if (props.pic==="Like")
- setPic(Like)
-else if (props.pic==="sad")
+if (props.pic==="Sad")
  setPic(Sad)
+else if (props.pic==="Like")
+ setPic(Like)
 })
 const ClickHandle=() =>
  {
